@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]">
+  <test name="gstzy(failed)">
+    <classes>
+      <class name="com.gstzy.testScript.Registry">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.gstzy.testScript.Registry -->
+      <class name="com.gstzy.DocWork">
+        <methods>
+          <include name="baseInfo"/>
+        </methods>
+      </class> <!-- com.gstzy.DocWork -->
+      <class name="com.gstzy.Registry">
+        <methods>
+          <include name="checkVersion"/>
+          <include name="newPatient"/>
+          <include name="registry"/>
+          <include name="baseInfo"/>
+          <include name="last"/>
+        </methods>
+      </class> <!-- com.gstzy.Registry -->
+      <class name="com.gstzy.TestCase">
+        <methods>
+          <include name="destroy"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.gstzy.TestCase -->
+    </classes>
+  </test> <!-- gstzy(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

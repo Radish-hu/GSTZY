@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+    <suite name="All Test Suite">
+        <test verbose="2"  thread-count="1" preserve-order="true" group-by-instances="true" name="E:/auto/gstzy/">
+            <classes>
+                <class name="com.gstzy.TestCase">
+                    <methods>
+                        <include name="execute"/>
+                    </methods>
+                </class>
+            </classes>
+        </test>
+</suite>
